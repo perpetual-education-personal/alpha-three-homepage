@@ -30,6 +30,8 @@ h1 {
 .student {
 	padding: 10px;
 	border: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .student h2 {
