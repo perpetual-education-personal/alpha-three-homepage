@@ -50,31 +50,13 @@ h1 {
 
 
 /*SHAYNE CLASS*/
-.shayne {
-	/*DEFAULT STUDENT STYLES*/
-	padding: 10px;
-	/*border: 1px solid black;*/
-	margin-top: 20px;
-	margin-bottom: 20px;
+.student.shayne {
 
-	/*CUSTOM SHAYNE STYLES*/
 	border: 5px solid yellow;
 	border-radius: 12px;
 }
 
-.shayne h2 {
-	font-size: 20px;
-	font-weight: 700;
-}
 
-.shayne p {
-	margin-top: 10px;
-}
-
-.shayne a {
-	padding-top: 10px;
-	display: inline-block;
-}
 
 
 
