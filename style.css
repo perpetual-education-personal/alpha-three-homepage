@@ -31,7 +31,26 @@ h1 {
   border: 1px solid black;
   margin-top: 20px;
   margin-bottom: 20px;
+
+  /* Sorry */
+
+  background-image: url("https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/v1555322954/shape/mentalfloss/trollhed.jpg?itok=UfrZLaEZ");
+  background-size: contain;
+  color: yellow;
+  text-shadow: 1px 1px red;
+
 }
+
+.no-troll {
+  background-image: url('https://www.technocrazed.com/wp-content/uploads/2015/12/beautiful-wallpaper-download-14.jpg');
+  background-size: cover;
+  color: lemonchiffon;
+  font-family: arial;
+  letter-spacing: 0.5em;
+  text-shadow: white 1px 0 10px;
+}
+
+/* Again, sorry. Derek told me to do this */
 
 .student h2 {
   font-size: 20px;
