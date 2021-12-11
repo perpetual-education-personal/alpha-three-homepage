@@ -17,7 +17,7 @@ a {
 
 /* Style */
 body {
-  background: deeppink;
+  background: linear-gradient(lime, deeppink,cyan);
 }
 
 h1 {
@@ -38,17 +38,22 @@ h1 {
   background-size: contain;
   color: yellow;
   text-shadow: 1px 1px red;
+  transform: scaleX(-1);
 
 }
 
 .no-troll {
   background-image: url('https://www.technocrazed.com/wp-content/uploads/2015/12/beautiful-wallpaper-download-14.jpg');
   background-size: cover;
-  color: lemonchiffon;
+  color: #FB8516;
   font-family: arial;
   letter-spacing: 0.5em;
-  text-shadow: white 1px 0 10px;
-}
+  text-shadow: 0 0 1px deeppink;
+  transform: none;
+  border: 2px solid #FB8516;
+  border-radius: 15px;
+  box-shadow: -5px 5px 10px #1968DE;
+  }
 
 /* Again, sorry. Derek told me to do this */
 
