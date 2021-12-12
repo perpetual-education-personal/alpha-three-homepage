@@ -31,14 +31,6 @@ h1 {
   border: 1px solid black;
   margin-top: 20px;
   margin-bottom: 20px;
-  transform: scaleY(-1);
-}
-
-.derek {
-  padding: 10px;
-  border: 1px solid black;
-  margin-top: 20px;
-  margin-bottom: 20px;
 
   /* Sorry */
 
@@ -46,7 +38,7 @@ h1 {
   background-size: contain;
   color: yellow;
   text-shadow: 1px 1px red;
-  transform: scaleX(-1) scaleY(-1);
+  transform: scaleX(-1);
 }
 
 .no-troll {
@@ -62,18 +54,38 @@ h1 {
   box-shadow: -5px 5px 10px #1968DE;
   }
 
+.tara {
+  background-image: url('https://cdn.mos.cms.futurecdn.net/axKraPELwMHn4W4f8mRD3M-840-80.jpg.webp');
+  background-size: cover;
+  transform: none;
+  color: #6cdced;
+  text-shadow: none;
+  display: flex;
+  flex-direction: column;
+  }
+
+.tara a {
+  color: #959595;
+}
+
+.tara a:hover {
+  text-decoration: none;
+}
+
 /* Again, sorry. Derek told me to do this (We figured)*/
 
 .student h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
 }
 
 .student p {
+  font-size: 16px;
   margin-top: 10px;
 }
 
 .student a {
+  font-size: 16px;
   padding-top: 10px;
   display: inline-block;
 }
@@ -118,4 +130,18 @@ h1 {
 #bdlowery-theme a:hover span {
   background-size: 100% 1px;
   transition: 0.25s ease-in-out;
+}
+
+
+@media (min-width: 500px) {
+  .tara {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .tara a {
+    font-size: 22px;
+  }
 }
