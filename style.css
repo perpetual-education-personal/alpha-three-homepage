@@ -31,6 +31,14 @@ h1 {
   border: 1px solid black;
   margin-top: 20px;
   margin-bottom: 20px;
+  transform: scaleY(-1);
+}
+
+.derek {
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   /* Sorry */
 
@@ -38,8 +46,7 @@ h1 {
   background-size: contain;
   color: yellow;
   text-shadow: 1px 1px red;
-  transform: scaleX(-1);
-
+  transform: scaleX(-1) scaleY(-1);
 }
 
 .no-troll {
@@ -55,7 +62,7 @@ h1 {
   box-shadow: -5px 5px 10px #1968DE;
   }
 
-/* Again, sorry. Derek told me to do this */
+/* Again, sorry. Derek told me to do this (We figured)*/
 
 .student h2 {
   font-size: 20px;
