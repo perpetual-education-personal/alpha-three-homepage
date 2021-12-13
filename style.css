@@ -175,6 +175,8 @@ h1 {
   color: blue;
 }
 
+
+
 @media (min-width: 500px) {
   .tara {
     flex-direction: row;
@@ -188,4 +190,20 @@ h1 {
   .tara a {
     font-size: 18px;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.student.andrew {
+  background-color: rgb(25, 25, 25);
+  color: #FFD975;
 }
