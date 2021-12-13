@@ -65,7 +65,7 @@ h1 {
   }
 
 .tara a {
-  color: #959595;
+  color: #fff;
 }
 
 .tara a:hover {
@@ -86,6 +86,7 @@ h1 {
 
 .student a {
   font-size: 16px;
+  font-weight: 400;
   padding-top: 10px;
   display: inline-block;
 }
@@ -138,10 +139,12 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
   }
 
+  .tara p {
+    max-width: 40ch;
+  }
   .tara a {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
