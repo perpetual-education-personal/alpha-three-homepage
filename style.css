@@ -39,11 +39,9 @@ h1 {
 .student {
   padding: 10px;
   border: 1px solid black;
-  margin-top: 20px;
-  margin-bottom: 20px;
+}
 
-  /* Sorry */
-
+.troll {
   background-image: url("https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/v1555322954/shape/mentalfloss/trollhed.jpg?itok=UfrZLaEZ");
   background-size: contain;
   color: yellow;
