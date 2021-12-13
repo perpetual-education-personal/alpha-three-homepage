@@ -25,6 +25,16 @@ h1 {
   font-size: 48px;
 }
 
+
+.students {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+
 /* Components */
 .student {
   padding: 10px;
