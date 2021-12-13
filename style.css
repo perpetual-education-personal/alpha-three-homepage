@@ -41,6 +41,23 @@ h1 {
   border: 1px solid black;
 }
 
+.student h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.student p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.student a {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+  display: inline-block;
+}
+
 .troll {
   background-image: url("https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/v1555322954/shape/mentalfloss/trollhed.jpg?itok=UfrZLaEZ");
   background-size: contain;
@@ -82,22 +99,7 @@ h1 {
 
 /* Again, sorry. Derek told me to do this (We figured)*/
 
-.student h2 {
-  font-size: 22px;
-  font-weight: 700;
-}
 
-.student p {
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-.student a {
-  font-size: 16px;
-  font-weight: 400;
-  padding-top: 10px;
-  display: inline-block;
-}
 
 /*SHAYNE CLASS*/
 .student.shayne {
