@@ -1,27 +1,47 @@
 .student.bdlowery {
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-  background-color: #e2eaf0;
+  background-color: #000000;
   padding: 20px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.student.bdlowery::after {
+  content: "";
+  position: absolute;
+  top: -200px;
+  left: -200px;
+  height: 1400px;
+  width: 2000px;
+  background: url("https://peprojects.dev/alpha-2/stars-big.svg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  animation: spin 240s linear infinite;
 }
 
 .student.bdlowery h2 {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  color: #0f425e;
+  font-family: "Marvin Visions Big Bold";
+  letter-spacing: 0.055em;
+  color: #ffffff;
 }
 
 .student.bdlowery p {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 17px;
+  color: #ffffff;
 }
 
 .student.bdlowery a {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 15px;
-  color: #000000;
+  font-size: 17px;
+  color: #ffffff;
   text-decoration: none;
   margin-top: 10px;
+  padding: 10px 10px 0px 0px;
 }
 
 .student.bdlowery a span {
@@ -35,4 +55,14 @@
 .student.bdlowery a:hover span {
   background-size: 100% 1px;
   transition: 0.25s ease-in-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
