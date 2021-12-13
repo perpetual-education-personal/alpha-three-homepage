@@ -17,14 +17,13 @@ a {
 
 /* Style */
 body {
-  background: linear-gradient(lime, deeppink,cyan);
+  background: linear-gradient(lime, deeppink, cyan);
 }
 
 h1 {
   font-family: sans-serif;
   font-size: 48px;
 }
-
 
 .students {
   display: flex;
@@ -33,7 +32,6 @@ h1 {
   padding-top: 20px;
   padding-bottom: 100px;
 }
-
 
 /* Components */
 .student {
@@ -67,27 +65,27 @@ h1 {
 }
 
 .no-troll {
-  background-image: url('https://www.technocrazed.com/wp-content/uploads/2015/12/beautiful-wallpaper-download-14.jpg');
+  background-image: url("https://www.technocrazed.com/wp-content/uploads/2015/12/beautiful-wallpaper-download-14.jpg");
   background-size: cover;
-  color: #FB8516;
+  color: #fb8516;
   font-family: arial;
   letter-spacing: 0.5em;
   text-shadow: 0 0 1px deeppink;
   transform: none;
-  border: 2px solid #FB8516;
+  border: 2px solid #fb8516;
   border-radius: 15px;
-  box-shadow: -5px 5px 10px #1968DE;
-  }
+  box-shadow: -5px 5px 10px #1968de;
+}
 
 .tara {
-  background-image: url('https://cdn.mos.cms.futurecdn.net/axKraPELwMHn4W4f8mRD3M-840-80.jpg.webp');
+  background-image: url("https://cdn.mos.cms.futurecdn.net/axKraPELwMHn4W4f8mRD3M-840-80.jpg.webp");
   background-size: cover;
   transform: none;
   color: #6cdced;
   text-shadow: none;
   display: flex;
   flex-direction: column;
-  }
+}
 
 .tara a {
   color: #fff;
@@ -97,6 +95,10 @@ h1 {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+/* Again, sorry. Derek told me to do this (We figured)*/
+>>>>>>> 87681f89a00754d242d0e7824adfa2b63b4ddf6a
 
 /*SHAYNE CLASS*/
 .student.shayne {
@@ -104,46 +106,10 @@ h1 {
   border-radius: 12px;
 }
 
-#bdlowery-theme {
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-}
-
-#bdlowery-theme h2 {
-  font-size: 24px;
-  font-weight: 700;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  color: #0f425e;
-}
-
-#bdlowery-theme p {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 17px;
-}
-
-#bdlowery-theme a {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 15px;
-  color: #000000;
-  text-decoration: none;
-}
-
-#bdlowery-theme a span {
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: left bottom 0px;
-  background-repeat: no-repeat;
-  background-size: 0% 1px;
-  transition: 0.25s ease-in-out;
-}
-
-#bdlowery-theme a:hover span {
-  background-size: 100% 1px;
-  transition: 0.25s ease-in-out;
-}
-
 #joshua {
-  background: #00B4DB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  
-  background: linear-gradient(to right, #0083B0, #00B4DB); 
+  background: #00b4db; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083b0, #00b4db);
+  background: linear-gradient(to right, #0083b0, #00b4db);
   font-family: sans-serif;
   letter-spacing: 0em;
   text-shadow: 0 0 1px black;
@@ -172,8 +138,6 @@ h1 {
   color: blue;
 }
 
-
-
 @media (min-width: 500px) {
   .tara {
     flex-direction: row;
@@ -189,18 +153,7 @@ h1 {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .student.andrew {
   background-color: rgb(25, 25, 25);
-  color: #FFD975;
+  color: #ffd975;
 }
