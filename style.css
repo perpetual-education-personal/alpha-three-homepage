@@ -64,19 +64,6 @@ h1 {
   transform: scaleX(-1);
 }
 
-.no-troll {
-  background-image: url("https://www.technocrazed.com/wp-content/uploads/2015/12/beautiful-wallpaper-download-14.jpg");
-  background-size: cover;
-  color: #fb8516;
-  font-family: arial;
-  letter-spacing: 0.5em;
-  text-shadow: 0 0 1px deeppink;
-  transform: none;
-  border: 2px solid #fb8516;
-  border-radius: 15px;
-  box-shadow: -5px 5px 10px #1968de;
-}
-
 .tara {
   background-image: url("https://cdn.mos.cms.futurecdn.net/axKraPELwMHn4W4f8mRD3M-840-80.jpg.webp");
   background-size: cover;
