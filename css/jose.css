@@ -65,7 +65,6 @@
 .jose picture img {
 	transform: rotate(-25deg);
 	max-width:120px;
-	margin-left: 20px;
 	animation-name: spin;
   	animation-duration: 100s;
   	animation-iteration-count: infinite;
