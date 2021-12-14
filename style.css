@@ -85,10 +85,16 @@ h1 {
 
 /*SHAYNE CLASS*/
 .student.shayne {
-  border: 5px solid yellow;
-  border-radius: 12px;
+  background-image: url("images/dark-graffiti.png");
+  background-size: cover;
+  color: white;
+  border: 5px solid #BCBCBC;
+  border-radius: 14px;
 }
 
+.student.shayne a {
+  color: white;
+}
 #joshua {
   background: #00b4db; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #0083b0, #00b4db);
