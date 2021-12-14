@@ -90,6 +90,10 @@ h1 {
   color: white;
   border: 5px solid #BCBCBC;
   border-radius: 14px;
+  font-size:16px;
+  line-height:1.5;
+  letter-spacing: 0.05em;
+  max-width:64ch;
 }
 
 .student.shayne a {
