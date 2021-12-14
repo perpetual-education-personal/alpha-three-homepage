@@ -1,13 +1,10 @@
 .student.andrew {
-  background: url('https://peprojects.dev/alpha-3/andrew/images/gray-bg.jpg');
-  background-position: center;
-  background-attachment: fixed;
+  background: rgb(25, 25, 25);
   color: #FFD975;
   font-family: 'Play', sans-serif;
   letter-spacing: .2em;
   border: 3px solid #FF9100;
   border-radius: 15px;
-  animation: spin 240s linear infinite;
   -webkit-box-shadow: -5px 7px 9px #202020;
   -moz-box-shadow: -5px 7px 9px #202020;
   box-shadow: -5px 7px 9px #202020;
@@ -19,7 +16,6 @@
   box-shadow: 0px 0px 35px 10px #FFB300;
   color: #FFD97F;
   border: 3px solid #FFB300;
-  transition: 0s ease;
 }
 
 .student.andrew h2 {
