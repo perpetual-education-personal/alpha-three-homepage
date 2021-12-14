@@ -19,7 +19,7 @@
 }
 
 .jose p {
-	font-size: 18px;
+	font-size: min(3.8vw, 18px);
 }
 
 .jose span:nth-of-type(1) {
@@ -30,7 +30,7 @@
 .jose span:nth-of-type(2) {
 	color: #FCFC0E;
 	text-shadow: 0 0 3px black;
-	font-size: 22px;
+	font-size: min(4vw, 22px);
 	font-weight: 700;
 }
 
@@ -42,7 +42,7 @@
 
 .jose a {
 	background-color: #F90FBC;
-	padding: 5px 15px;
+	padding: 2% 10%;
 	align-self: flex-end;
 	border: 1px solid black;
 	border-radius: 10px;
@@ -51,13 +51,15 @@
 	font-weight: 700;
 	transition-timing-function: ease-in-out;
 	transition-duration: 0.5s;
+	font-size: min(3.5vw, 18px);
+	text-align: center;
 }
 
 .jose a:hover {
 	background-color: #33D514;
 	transition-timing-function: ease-in-out;
   	transition-duration: 0.5s;
-  	padding: 5px 50px;
+  	padding: 2% 20%;
   	letter-spacing: 0.5em;
 	transition-property: background-color, padding, letter-spacing;
 }
