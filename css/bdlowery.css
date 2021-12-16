@@ -10,8 +10,10 @@
 .student.bdlowery::after {
   content: "";
   position: absolute;
-  top: -200px;
-  left: -200px;
+  top: 50%;
+  left: 50%;
+  margin-top: -700px;
+  margin-left: -1000px;
   height: 1400px;
   width: 2000px;
   background: url("https://peprojects.dev/alpha-2/stars-big.svg");
