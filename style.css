@@ -1,5 +1,6 @@
 @import "meyer-reset.css";
 @import "setup.css";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 /* Structure */
 .inner-column {
@@ -65,17 +66,26 @@ h1 {
 }
 
 .tara {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/axKraPELwMHn4W4f8mRD3M-840-80.jpg.webp");
-  background-size: cover;
+  background-color: #47454d;
   transform: none;
-  color: #6cdced;
   text-shadow: none;
   display: flex;
   flex-direction: column;
+  color: #cccac4;
+}
+
+.tara h2 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 40px;
+}
+
+.tara p {
+  font-size: 18px;
 }
 
 .tara a {
   color: #fff;
+  font-size: 22px;
 }
 
 .tara a:hover {
