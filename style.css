@@ -78,7 +78,7 @@ h1 {
 
 .tara h2 {
   font-family: 'Fredericka the Great', cursive;
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .tara p {
@@ -88,6 +88,7 @@ h1 {
 .tara a {
   color: #fff;
   font-size: 22px;
+  min-width: 15ch;
 }
 
 .tara a:hover {
@@ -150,9 +151,15 @@ h1 {
     align-items: center;
   }
 
+  .tara h2 {
+    padding: 10px;
+  }
+
   .tara p {
-    max-width: 40ch;
+    padding: 10px;
+    max-width: 50ch;
   }
   .tara a {
-    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
   }
