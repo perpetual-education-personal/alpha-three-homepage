@@ -34,12 +34,12 @@
 .site-footer .call-to-action {
   line-height: 1.4;
   font-family: monospace;
+    max-width: 64ch;
 }
 
 .site-footer {
   border: 1px solid black;
   padding: 20px;
-  max-width: 64ch;
 }
 
 /* Undo setup.css link treatmeant until everyone has their own link styles. */
