@@ -20,7 +20,8 @@
 }
 
 @font-face {
-  font-family: "Digital 7";
-  src: local("Digital-7"), local("Digital 7"), local("Digital7"), url(/fonts/Digital-7.woff2);
+  font-family: "Technology";
+  src: local("Technology-Regular"), local("Technology Regular"), local("TechnologyRegular"),
+    url(/fonts/Technology-Regular.woff2);
   font-weight: 400;
 }

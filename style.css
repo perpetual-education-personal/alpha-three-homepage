@@ -21,20 +21,25 @@
   align-items: center;
   background-color: #000;
   color: #00ff00;
-  padding: 5px;
+  padding: 7px;
 }
 
 .view-counter {
-  margin-bottom: -4px;
-  margin-right: -2px;
-  font-family: "Digital 7";
+  font-family: "Technology";
   font-size: 40px;
   letter-spacing: 0.05em;
+  margin-bottom: -8px;
+}
+
+.site-footer .call-to-action {
+  line-height: 1.4;
+  font-family: monospace;
 }
 
 .site-footer {
   border: 1px solid black;
   padding: 20px;
+  max-width: 64ch;
 }
 
 /* Undo setup.css link treatmeant until everyone has their own link styles. */
