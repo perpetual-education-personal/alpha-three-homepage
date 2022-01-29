@@ -1,6 +1,7 @@
 @import "meyer-reset.css";
 @import "setup.css";
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import "css/typography.css";
 
 /* Structure */
 .inner-column {
@@ -8,6 +9,32 @@
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+}
+
+.site-footer p + p {
+  margin-top: 20px;
+}
+
+.site-footer .views {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #00ff00;
+  padding: 5px;
+}
+
+.view-counter {
+  margin-bottom: -4px;
+  margin-right: -2px;
+  font-family: "Digital 7";
+  font-size: 40px;
+  letter-spacing: 0.05em;
+}
+
+.site-footer {
+  border: 1px solid black;
+  padding: 20px;
 }
 
 /* Undo setup.css link treatmeant until everyone has their own link styles. */
@@ -77,7 +104,7 @@ h1 {
 }
 
 .tara h2 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: "Fredericka the Great", cursive;
   font-size: 36px;
 }
 
@@ -95,18 +122,17 @@ h1 {
   text-decoration: none;
 }
 
-
 /*SHAYNE CLASS*/
 .student.shayne {
   background-image: url("images/dark-graffiti.png");
   background-size: cover;
   color: white;
-  border: 5px solid #BCBCBC;
+  border: 5px solid #bcbcbc;
   border-radius: 14px;
-  font-size:16px;
-  line-height:1.5;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.05em;
-  max-width:64ch;
+  max-width: 64ch;
 }
 
 .student.shayne a {
@@ -163,3 +189,4 @@ h1 {
     font-size: 20px;
     text-align: center;
   }
+}
