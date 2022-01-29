@@ -58,18 +58,6 @@
         </a>
       </div>
 
-      <!-- <div class="student budi">
-        <div class="copy-group">
-          <h2>Hi, I'm Budi!</h2>
-          <p>I'm a barista turned Perpetual Education-&nbsp;minted Web Developer. <span>Dive in!</span></p>
-        </div>
-
-        <div>
-          <a href="budi/web-portal" target="budi/web-portal">Click here</a>
-        </div>
-
-      </div> -->
-
       <div class="student jose">
         <picture>
           <img src="images/next-rip.svg">
@@ -86,28 +74,11 @@
         <a href="josh" target="josh">Click here</a>
       </div>
 
-      <!-- <div class="student troll">
-        <h2>Saul</h2>
-        <p>Saul's Stuff</p>
-        <a href="saul" target="saul">Click here</a>
-      </div> -->
-
-      <!-- <div class="student troll">
-        <h2>Wytonya</h2>
-        <p>Wytonya's Stuff</p>
-        <a href="wytonya" target="wytonya">Click here</a>
-      </div> -->
-
-      <!-- <div class="student troll">
-        <h2>Natasha</h2>
-        <p>Natasha's Stuff</p>
-        <a href="natmorrison" target="natasha">Click here</a>
-      </div> -->
 
       <div class="student bdlowery">
         <h2>Brian</h2>
         <p>Check out my projects and case studies 👨‍💻️</p>
-        <a href="bdlowery" target="bdlowery"><span>Read more</span></a>
+        <a href="bdlowery/wordpress" target="bdlowery"><span>Read more</span></a>
       </div>
 
     </section>
