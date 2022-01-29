@@ -94,7 +94,7 @@
       file_put_contents($file, $counter);
       ?>
       <p class="views"><span class="view-counter"><?= $counter ?></span></p>
-      <p class="call-to-action">Do you like this stuff? Come see what we're doing at <a href='https://perpetual.education' target='pe'>Perpetual "Dot" Education</a>.</p>
+      <p class="call-to-action">Do you like this stuff? Come see what we're doing at <br> <a href='https://perpetual.education' target='pe'>Perpetual "Dot" Education</a>.</p>
     </footer>
   </div>
 
