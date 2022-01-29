@@ -18,3 +18,9 @@
     url(/fonts/HelveticaNeue-Bold.woff2);
   font-weight: 700;
 }
+
+@font-face {
+  font-family: "Digital 7";
+  src: local("Digital-7"), local("Digital 7"), local("Digital7"), url(/fonts/Digital-7.woff2);
+  font-weight: 400;
+}
