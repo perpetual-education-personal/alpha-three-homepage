@@ -1,47 +1,98 @@
 
-.student.sheriff {
-	--ink: black;
-	--paper: pink;
+student-card#sheriff {
+	--ink: #0e2c29;
+	--paper: #edf1f3;
 	--accent: #ff0066;
+	--highlight: #fbf166;
 	/* */
 	background-color: var(--paper);
 	color: var(--ink);
 	font-family: Sans-serif;
-	
-	padding: 20px;
-	border-radius: 10px;
-	border: 3px solid var(--accent);
-	background-image:  linear-gradient(110deg, transparent 0%, transparent 90%, var(--accent) 90%, var(--accent) 100%);
-	transition:  .2s;
-	box-shadow: 1px 1px 10px 0 rgba(0,0,0,.2);
+
+	padding: 20px 10px;
+	overflow: hidden;
+
+	position: relative;
 }
 
-.student.sheriff .title {
-	font-size:  24px;
+student-card#sheriff .title {
+	font-size: clamp(24px, 5vw, 50px);
+	position: relative;
 }
 
-.student.sheriff .description {
-	margin-top:  10px;
-}
-
-.student.sheriff .link {
+student-card#sheriff .description {
 	margin-top: 10px;
+	line-height: 1.4;
+	position: relative;
+}
+
+student-card#sheriff .link {
+	margin-top: 30px;
 	color: var(--accent);
 	font-weight: 400;
+	background-color: var(--paper);
+	position: relative;
+	display: inline-block;
+}
+
+student-card#sheriff svg {
+	z-index: 0;
+}
+
+student-card#sheriff .circle {
+	width: clamp(100px, 20vw, 300px);
+	height: clamp(100px, 20vw, 300px);
+
+	position: absolute;
+	top: 60%;
+	left: 70%;
+}
+
+student-card#sheriff .circle circle {
+	fill: var(--accent);
+	stroke: transparent;
+	stroke-width: 3px;
+}
+
+student-card#sheriff .square {
+	width: 200px;
+	height: 200px;
+
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: rotate(-5deg);
+}
+
+student-card#sheriff .square rect {
+	fill: var(--highlight);
+	stroke: transparent;
+	stroke-width: 3px;
 }
 
 @media (min-width: 440px) {
-	.student.sheriff {
-		background-image:  linear-gradient(110deg, transparent 0%, transparent 70%, var(--accent) 70%, var(--accent) 100%);
+	student-card#sheriff {
+		padding: 40px 20px;
 	}
 }
 
-@media (min-width: 560px) {
-	.student.sheriff {
-		padding: 20px;
-		background-image:  linear-gradient(110deg, transparent 0%, transparent 50%, var(--accent) 50%, var(--accent) 100%);
+@media (prefers-color-scheme: dark) {
+	student-card#sheriff {
+		--ink: #edf1f3;
+		--paper: #0e2c29;
+		--accent: #ff0066;
 	}
-	.student.sheriff .title {
-		font-size:  30px;
+	student-card#sheriff .circle {
+
+	}
+
+	student-card#sheriff .circle circle {
+		fill: transparent;
+		stroke: var(--accent);
+	}
+	student-card#sheriff .square rect {
+		fill: transparent;
+		stroke: var(--highlight);
+		stroke-width: 3px;
 	}
 }

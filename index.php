@@ -28,11 +28,18 @@
 
     <section class="students">
 
-      <div class="student sheriff">
-        <h2 class="title">🤠 sheriffderek</h2>
-        <p class="description">Someone's got to <em>design</em> this town.</p>
-        <a class="link" href="sheriff" target="sheriff">Giddy Up</a>
-      </div>
+      <student-card id='sheriff'>
+        <svg class='circle' viewBox='0 0 100 100'>
+          <circle cx='50' cy='50' r='46'></circle>
+        </svg>
+        <svg class='square' viewBox='0 0 100 100'>
+          <rect width="100" height="100" />
+        </svg>
+
+        <h2 class="title">I'm am <strong>sheriffderek</strong></h2>
+        <p class="description">See my web page by clicking this hyper-rad hyperlink...</p>
+        <a class="link" href="sheriff" target="sheriff">I single-cat dare yah</a>
+      </student-card>
 
       <div class="student shayne">
         <h2>Shayne McGregor</h2>
