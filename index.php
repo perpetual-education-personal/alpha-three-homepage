@@ -85,8 +85,8 @@
     </section>
 
     <footer class="site-footer">
-      <?php include('view-counter.php'); ?>
-  
+      <?php include('components/view-counter.php'); ?>
+
       <p class="call-to-action">Do you like this stuff? Come see what we're doing at <br> <a href='https://perpetual.education' target='pe'>Perpetual "Dot" Education</a>.</p>
     </footer>
   </div>
