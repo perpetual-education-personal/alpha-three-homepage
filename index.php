@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="css/sheriff.css" />
   <link rel="stylesheet" href="css/bdlowery.css" />
   <link rel="stylesheet" href="css/andrew.css" />
-  <link rel="stylesheet" href="css/budi.css">
   <link rel="stylesheet" href="css/jose.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
@@ -27,6 +27,7 @@
     <h1><code>alpha-three</code> student sites</h1>
 
     <section class="students">
+
       <div class="student sheriff">
         <h2 class="title">🤠 sheriffderek</h2>
         <p class="description">Someone's got to <em>design</em> this town.</p>
@@ -84,16 +85,8 @@
     </section>
 
     <footer class="site-footer">
-      <?php
-      $file = "views.txt";
-      $counter = 1;
-      if (file_exists($file)) {
-        $contents = file_get_contents($file);
-        $counter = $counter + $contents;
-      }
-      file_put_contents($file, $counter);
-      ?>
-      <p class="views"><span class="view-counter"><?= $counter ?></span></p>
+      <?php include('view-counter.php'); ?>
+  
       <p class="call-to-action">Do you like this stuff? Come see what we're doing at <br> <a href='https://perpetual.education' target='pe'>Perpetual "Dot" Education</a>.</p>
     </footer>
   </div>
