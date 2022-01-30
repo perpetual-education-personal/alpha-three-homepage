@@ -8,7 +8,7 @@ html {
   --paper: #e9e2d3;
 }
 
-@media (prefers-reduced-motion) {
+@media (prefers-color-scheme: dark) {
   html {
     --paper: #191e25;
   }
