@@ -3,6 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
 @import "css/typography.css";
 
+
+html {
+  --paper: #e9e2d3;
+}
+
+@media (prefers-reduced-motion) {
+  html {
+    --paper: #191e25;
+  }
+}
+
+
 /* Structure */
 .inner-column {
   max-width: 800px;
@@ -50,7 +62,7 @@ a {
 
 /* Style */
 body {
-  background-color: #e9e2d3;
+  background-color: var(--paper);
 }
 
 h1 {
