@@ -1,27 +1,27 @@
 @font-face {
   font-family: "Marvin Visions Big Bold";
   src: local("Marvin Visions Big Bold"), local("Marvin-Visions-Big-Bold"),
-    local("MarvinVisionsBig-Bold"), url(/fonts/MarvinVisionsBig-Bold.woff2);
+    local("MarvinVisionsBig-Bold"), url(../fonts/MarvinVisionsBig-Bold.woff2);
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Helvetica Neue";
   src: local("HelveticaNeue"), local("Helvetica-Neue"), local("HelveticaNeue-Regular"),
-    url(/fonts/HelveticaNeue.woff2);
+    url(../fonts/HelveticaNeue.woff2);
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Helvetica Neue Bold";
   src: local("HelveticaNeueBold"), local("Helvetica-Neue-Bold"), local("HelveticaNeue-Bold"),
-    url(/fonts/HelveticaNeue-Bold.woff2);
+    url(../fonts/HelveticaNeue-Bold.woff2);
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Technology";
   src: local("Technology-Regular"), local("Technology Regular"), local("TechnologyRegular"),
-    url(/fonts/Technology-Regular.woff2);
+    url(../fonts/Technology-Regular.woff2);
   font-weight: 400;
 }
