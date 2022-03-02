@@ -85,8 +85,28 @@
 
       <div class="student bdlowery">
         <h2>Brian</h2>
-        <p>Check out my projects and case studies 👨‍💻️</p>
-        <a href="bdlowery/wordpress" target="bdlowery"><span>Read more</span></a>
+        <p>Check out my projects and case studies </p>
+        <a href="bdlowery/wordpress" target="bdlowery"><span>READ MORE →</span></a>
+        <comets>
+          <svg class="extras" preserveAspectRatio="none">
+            <defs>
+              <radialGradient id="comet-gradient" cx="0" cy=".5" r="0.5">
+                <stop offset="0%" stop-color="rgba(255,255,255,.8)"></stop>
+                <stop offset="100%" stop-color="rgba(255,255,255,0)"></stop>
+              </radialGradient>
+            </defs>
+            <g transform="rotate(-170)">
+              <ellipse class="comet comet-a" fill="url(#comet-gradient)" rx="150" ry="2" />
+            </g>
+            <g transform="rotate(20)">
+              <ellipse class="comet comet-b" fill="url(#comet-gradient)" cx="100%" rx="150" ry="2" />
+            </g>
+            <g transform="rotate(300)">
+              <ellipse class="comet comet-c" fill="url(#comet-gradient)" cx="40%" cy="100%" rx="150" ry="2" />
+            </g>
+          </svg>
+        </comets>
+
       </div>
 
     </section>
