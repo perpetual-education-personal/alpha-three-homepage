@@ -140,6 +140,9 @@ h1 {
 }
 
 /*SHAYNE CLASS*/
+.student.shayne {
+  background-color: white;
+}
 .student.shayne .attention-voice {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 29px;
