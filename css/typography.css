@@ -25,3 +25,12 @@
     url(../fonts/Technology-Regular.woff2);
   font-weight: 400;
 }
+
+/*Shayne's Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap');
+
+.attention-voice {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+}
