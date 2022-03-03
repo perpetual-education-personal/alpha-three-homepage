@@ -145,7 +145,12 @@ h1 {
   font-size: 29px;
   font-weight: 700;
 }
- 
+ .student.shayne .intro-voice {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
 
 
 .student.shayne a {
