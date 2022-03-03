@@ -154,7 +154,8 @@ h1 {
 
 
 .student.shayne a {
- 
+ color: black;
+ font-weight: 700;
 }
 #joshua {
   background: #00b4db; /* fallback for old browsers */
