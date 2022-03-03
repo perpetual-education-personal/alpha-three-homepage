@@ -43,6 +43,7 @@
 
       <div class="student shayne">
         <h2 class="attention-voice">Shayne McGregor</h2>
+        <div class="space"></div>
         <p class="intro-voice">I am a Ph.D. candidate in African American Studies as well as a web designer. I believe websites are the most powerful mediums of communication oout today, and we have a responsility to make them create them in ways that will leave an indelible positive impact on the world</p>
         <a href="shayne" target="shayne">Check out my work here</a>
       </div>
